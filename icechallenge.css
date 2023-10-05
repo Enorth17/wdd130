@@ -1,8 +1,12 @@
-<a {
+a{
     background-color: pink;
     color: black;
     text-decoration: None;
     padding: 10px;
     margin: 5px;
     text-align: center;
+}
+a:hover{
+    background-color: pink;
+    color: white;
 }
