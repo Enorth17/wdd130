@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Shadows+Into+Light&display=swap');
+body {
+    font-family: oswald, verdana, sans-serif;
+    padding: 0;
+    margin:0;
+}
 a{
 background-color: lightblue;
 color: rgb(71,69,69);
@@ -13,6 +19,7 @@ a:hover {
 nav {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 h1 {
     font-size: 2em;
@@ -21,16 +28,21 @@ h1 {
 img {
     width:80%;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    border: 3px solid lightblue;
+    padding: 40px; 
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 p {
     /* text-align: center' */
     width: 80%;
     margin: 10px auto;
     padding: 10px;
+    box-sizing: border-box;
 }
 .background {
-    background-color:lightblue;
+    background-color: white;
 }
 #primary {
     background:white;
@@ -38,4 +50,7 @@ p {
 footer p {
     width: 100%;
     text-align: center;
+}
+.WDD130 {
+    background-color: lightblue;
 }
