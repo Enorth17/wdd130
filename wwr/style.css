@@ -182,6 +182,89 @@ footer p a:hover {
     footer .social img {
     padding-top: 15px;
 }
+
+
+.rivers-grid{
+    display:grid;
+    grid-gap:30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.idaho-img {
+    display:grid; 
+    grid-column: 3/4;
+    grid-row: 1/3;
+    align-items: center;
+    padding-top: 20%;
+    width: 500px;
+    height: 450px;
+}
+.idaho-title{
+    display:grid;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    padding-top: 5%;
+    font-family: "shadows into light";
+    font-size: 50px; 
+    color: rgb(119, 154, 119)
+}
+.idaho-text {
+    display:grid;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align:center;
+    font-size: 25px;
+}
+.utah-img {
+    display:grid;
+    grid-column: 1/2;
+    grid-row: 3/5;
+    width: 500px;
+    height: 450px;
+}
+.utah-title {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    text-align:center;
+    font-family:"shadows into light";
+    font-size: 50px;
+    color: rgb(119, 154, 119)
+}
+.utah-text {
+    display:grid;
+    grid-column: 2/4;
+    grid-row: 4/5;
+    text-align: center;
+    font-size: 25px;
+}
+.arizona-img {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 5/7;
+    align-items: center;
+    width: 500px;
+    height: 450px;
+    padding-top: 20%;
+}
+.arizona-title {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 5/6;
+    text-align: center;
+    font-family:"shadows into light";
+    font-size: 50px;
+    padding-top: 10%;
+    color: rgb(119, 154, 119);
+}
+.arizona-text {
+    display: grid;
+    grid-template-columns: 1/3;
+    grid-template-rows: 6/7;
+    text-align: center;
+    font-size: 25px;
+    width:200%;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
