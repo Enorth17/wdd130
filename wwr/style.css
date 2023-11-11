@@ -263,7 +263,7 @@ footer p a:hover {
     grid-row: 6/7;
     text-align: center;
     font-size: 25px;
-    width:200%;
+    width:100%;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
