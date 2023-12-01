@@ -41,11 +41,11 @@
         <h2 class="back2-title">Add ons:</h2>
         <h4 class="back2-text">Table cloths ($10 each), alcohol fee ($300), table set up and take down service ($100), decor and wedding planning service (starting at $800), cleaning services ($100)</h4>
     </div>
-    <img class="table" src="images/SageTable.JPG" alt="table decor">
+    <img class="table" src="images/SageTable2.JPG" alt="table decor">
         
     <div id="questions">
-        <h2>Frequently Asked Questions</h2>
-    </div>
+             
+    <h2>Frequently Asked Questions</h2>
     <button class="accordion">Do you offer hourly rates?</button>
     <div class="panel">
         <p>We do! Reach out for pricing</p>
@@ -68,7 +68,7 @@
     </div>
     <button class="accordion">What is required to book?</button>
     <div class="panel">
-        <p>A %30 down payment and signed contract are required for booking</p>
+        <p>A 30% down payment and signed contract are required for booking</p>
     </div>
     <button class="accordion">Can I book the Sage for events other than a wedding?</button>
     <div class="panel">
@@ -81,6 +81,7 @@
     <button class="accordion">What is required for clean up?</button>
     <div class="panel">
         <p> We ask that you leave the Sage looking as nice as you found it! By the end of your alotted time we ask that all tables and chairs are put away, the floor is swept, and all countertops are empty and wiped down</p>
+    </div>
     </div>
     </main>
     <footer>
@@ -99,22 +100,26 @@
             </a>
         </div>
     </footer>
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-              panel.style.maxHeight = null;
-            } else {
-              panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-          });
-        }
-        </script>
     </div>
+    <script>
+       var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+        </script>
 </body>
 </html>
